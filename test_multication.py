@@ -11,3 +11,4 @@ class TestMultiplication(unittest.TestCase):
         self.assertEqual(multiplication(1, 0), 0)
         self.assertEqual(multiplication(872, 9879879878798), 8615255254311856)
     
+    

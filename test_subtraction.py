@@ -10,3 +10,6 @@ class TestSubtraction(unittest.TestCase):
         self.assertEqual(subtraction(0, 1), -1)
         self.assertEqual(subtraction(1, 0), 1)
         self.assertEqual(subtraction(1, 1), 0)
+        
+if __name__ == '__main__':
+    unittest.main()

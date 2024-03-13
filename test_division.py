@@ -10,3 +10,6 @@ class TestDivision(unittest.TestCase):
         self.assertEqual(division(0, 1), 0)
         self.assertEqual(division(1, 0), "Error: Division by zero is not allowed.")
         self.assertEqual(division(4.5 , 2.4), 1.875)
+        
+if __name__ == '__main__':
+    unittest.main()
